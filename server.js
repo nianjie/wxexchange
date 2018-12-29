@@ -1,10 +1,11 @@
+console.log('server start')
 const Koa = require('koa')
 const app = new Koa()
 const debug = require('debug')('wxexchange')
 const response = require('./middlewares/response')
 const bodyParser = require('koa-bodyparser')
 const config = require('./config')
-
+console.log('config app')
 // 使用响应处理中间件
 app.use(response)
 
