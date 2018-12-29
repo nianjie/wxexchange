@@ -1,0 +1,20 @@
+{
+  "name": "exchange-for-wx",
+  "description": "exchange assistant.",
+  "keywords": [
+    "wx"
+  ],
+  "repository": "",
+  "success_url": "/",
+  "env": {
+    "DEBUG": "wxexchange"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [
+  ]
+}
