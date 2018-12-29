@@ -11,6 +11,9 @@
     "WxAppId": {
       "required": true
     },
+    "WxAppSecret": {
+      "required": true
+    }
   },
   "formation": {
     "web": {
