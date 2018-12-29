@@ -17,6 +17,14 @@ const CONF = {
     qcloudAppId: '',
     qcloudSecretId: '',
     qcloudSecretKey: '',
+    mysql: {
+        host: 'localhost',
+        port: 3306,
+        user: 'root',
+        db: 'cAuth',
+        pass: '',
+        char: 'utf8mb4'
+    },
     cos: {
         /**
          * 地区简称
