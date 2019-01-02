@@ -1,5 +1,5 @@
 const fs = require('fs')
-const waferSDK = {
+const waferSDK = () => {
     auth: {
         authorizationMiddleware: require('./middlewares/authorise')
     }
