@@ -1,5 +1,9 @@
 const fs = require('fs')
-const waferSDK = require('wafer-node-sdk')
+const waferSDK = {
+    auth: {
+        authorizationMiddleware: require('./middlewares/authorise')
+    }
+}
 
 // 获取基础配置
 const configs = require('./config')
