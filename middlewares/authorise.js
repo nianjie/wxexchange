@@ -4,7 +4,7 @@ const {ERRORS} = require('../constant')
 module.exports = async function (ctx, next) {
   const {
     'x-wx-code': code
-  } = req.headers
+  } = ctx.req.headers
 
   if ([code].every(v => !v)) {
     debug(ERRORS.ERR_AUTH_HEADER_MISSED)
