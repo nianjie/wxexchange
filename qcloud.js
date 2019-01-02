@@ -2,6 +2,7 @@ const fs = require('fs')
 const waferSDK = () => {
     auth: {
         authorizationMiddleware: require('./middlewares/authorise')
+        validationMiddleware: function noop() {}
     }
 }
 
