@@ -7,11 +7,20 @@
   "repository": "",
   "success_url": "/",
   "env": {
-    "DEBUG": "wxexchange",
+    "DEBUG": "*",
     "WxAppId": {
       "required": true
     },
     "WxAppSecret": {
+      "required": true
+    },
+    "TencentCloudAppId": {
+      "required": true
+    },
+    "TencentCloudSecretId": {
+      "required": true
+    },
+    "TencentCloudSecretKey": {
       "required": true
     }
   },
